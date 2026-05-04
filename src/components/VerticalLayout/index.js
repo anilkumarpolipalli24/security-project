@@ -3,7 +3,7 @@ import React, { useEffect } from "react"
 
 import { connect } from "react-redux"
 import { Container } from "reactstrap";
-import withRouter from 'components/Common/withRouter';
+import withRouter from '../Common/withRouter';
 import {
   changeLayout,
   changeSidebarTheme,

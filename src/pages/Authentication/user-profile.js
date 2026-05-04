@@ -20,8 +20,7 @@ import { useFormik } from "formik";
 //redux
 import { useSelector, useDispatch } from "react-redux";
 import { createSelector } from "reselect";
-import withRouter from "components/Common/withRouter";
-
+import withRouter from "../../components/Common/withRouter";
 
 import user1 from "../../assets/images/users/user-1.jpg";
 // actions

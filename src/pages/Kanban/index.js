@@ -24,17 +24,17 @@ import {
   addCardData as onAddCardData,
   updateCardData as onUpdateCardData,
   deleteKanban as OnDeleteKanban,
-} from "store/tasks/actions"
+} from "../../store/tasks/actions"
 
 //redux
 import { useSelector, useDispatch } from "react-redux"
 import { createSelector } from "reselect"
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd"
 import { Link } from "react-router-dom"
-import { AddTeamMember } from "common/data"
+import { AddTeamMember } from "../../common/data"
 import SimpleBar from "simplebar-react"
 import moment from "moment"
-import Spinners from "components/Common/Spinner"
+import Spinners from "../../components/Common/Spinner";
 
 //Import Action to copy breadcrumb items from local state to redux state
 import { setBreadcrumbItems } from "../../store/actions";

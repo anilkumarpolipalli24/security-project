@@ -26,7 +26,7 @@ import {
   deleteKanban,
   addCardData,
   updateCardData,
-} from "helpers/fakebackend_helper"
+} from "../../helpers/fakebackend_helper"
 
 function* fetchTasks() {
   try {

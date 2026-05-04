@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { connect } from "react-redux"
-import withRouter from "components/Common/withRouter"
+import withRouter from "../Common/withRouter"
 
 //i18n
 import { withTranslation } from "react-i18next"

@@ -19,8 +19,8 @@ import {
     getContacts as onGetContacts,
     getGroups as onGetGroups,
     getMessages as onGetMessages,
-} from "store/actions";
-import Spinners from 'components/Common/Spinner';
+} from "../../store/actions";
+import Spinners from "../../components/Common/Spinner";
 
 const Chat = (props) => {
     document.title = "Chat | Lexa - Responsive Bootstrap 5 Admin Dashboard";

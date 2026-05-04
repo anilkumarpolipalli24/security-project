@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 // Formik validation
 import * as Yup from "yup";
 import { useFormik } from "formik";
-import withRouter from 'components/Common/withRouter';
+import withRouter from "../../components/Common/withRouter";
 
 // actions
 import { loginUser, socialLogin } from "../../store/actions";

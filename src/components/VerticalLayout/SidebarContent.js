@@ -6,7 +6,7 @@ import SimpleBar from "simplebar-react"
 
 // MetisMenu
 import MetisMenu from "metismenujs"
-import withRouter from "components/Common/withRouter"
+import withRouter from "../Common/withRouter"
 import { Link } from "react-router-dom"
 
 //i18n

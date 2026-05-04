@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { useEffect,useState } from "react"
 import { connect } from "react-redux"
-import withRouter from 'components/Common/withRouter';
+import withRouter from '../Common/withRouter';
 import { Container } from "reactstrap";
 
 import {
