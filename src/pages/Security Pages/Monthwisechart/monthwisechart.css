@@ -1,0 +1,48 @@
+.card {
+  padding: 20px;
+}
+
+.table-sm td,
+.table-sm th {
+  padding: 12px; /* Increased padding for taller rows */
+  vertical-align: middle;
+}
+
+.chart-header {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.emp-photo {
+  object-fit: cover;
+}
+
+.card {
+  padding: 20px;
+}
+.table-sm td, .table-sm th {
+  padding: 12px;
+  vertical-align: middle;
+}
+.chart-header {
+  align-items: center;
+  margin-bottom: 20px;
+}
+.emp-photo {
+  object-fit: cover;
+}
+
+.card {
+  padding: 20px;
+}
+.table-sm td, .table-sm th {
+  padding: 12px;
+  vertical-align: middle;
+}
+.chart-header {
+  align-items: center;
+  margin-bottom: 20px;
+}
+.emp-photo {
+  object-fit: cover;
+}

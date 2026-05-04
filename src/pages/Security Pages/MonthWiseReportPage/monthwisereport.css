@@ -1,0 +1,26 @@
+.table.table-bordered {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table.table-bordered td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+.table.table-bordered .label {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  width: 20%;
+}
+.table.table-bordered .detail {
+  width: 30%;
+}
+.employee-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.filters-row {
+  margin-bottom: 1rem;
+}
